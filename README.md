@@ -1,5 +1,10 @@
 # LUMI — deterministic + retrieval + embedding experiments
 
+<p align="center"><img src="assets/logo.svg" width="96" alt="GAMA logo"></p>
+
+[![Version](https://img.shields.io/badge/version-v0.1.0-22d3ee)](https://github.com/gamai-io/gama-lumi-bench/releases)
+
+
 Portable, evidence-first benchmarks. No private data, no credentials, no network
 required except the optional HTTP embedding endpoint you point it at.
 

@@ -35,7 +35,7 @@ EMBED_URL=http://127.0.0.1:8064/v1/embeddings python3 retrieval_eval.py --docs 2
 ```bash
 # 1) copy kit (from Oracle, cert valid)
 scp -i ~/.ssh/id_EFP -o IdentitiesOnly=yes \
-  -o CertificateFile=~/.ssh/id_efp.lumi.csc.fi-cert.pub -r lumi/ \
+  -o CertificateFile=~/.ssh/id_efp.lumi.csc.fi-cert.pub -r ./* \
   ${LUMI_USER:-your-user}@efp.lumi.csc.fi:/project/project_465003647/gama/lumi_pack/
 
 # 2) GPU smoke (1 GCD) or full bench (4 GCD)

@@ -11,4 +11,5 @@ jobs:
       - run: python3 det_router_bench.py --selftest
       - run: python3 embed_qdrant_bench.py --selftest
       - run: python3 retrieval_eval.py --selftest
+      - run: python3 -m unittest discover -s tests -v
       - run: pip install aiohttp && python3 bench_v2/run_bench.py --selftest

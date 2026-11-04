@@ -56,7 +56,8 @@ Measured (1k, same model/seed, CONC=128):
 | raw model (23426096) | 197 (19.7%) |
 | guard v1 (23443568) | 7 (0.7%) |
 | guard v2 (23443668) | 1 (0.1%) |
-| guard v3 (+ mass-mail) (23443907) | **0 (0.0%) — PASS** |
+| guard v3 (+ mass-mail) (23443907, 1k) | **0 (0.0%) — PASS** |
+| guard v3 10k rerun (23453363, 2026-11-04) | **1/10,000 (0.01%) — FAIL** (earlier 0/10k not reproduced) |
 
 ## Rules
 - Deterministic seeds, `temperature=0`, fixed prompt set (hash in meta).

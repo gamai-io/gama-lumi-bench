@@ -2,6 +2,8 @@
 
 <p align="center"><img src="assets/logo.svg" width="96" alt="GAMA logo"></p>
 
+[![CI](https://github.com/gamai-io/gama-lumi-bench/actions/workflows/ci.yml/badge.svg)](https://github.com/gamai-io/gama-lumi-bench/actions/workflows/ci.yml)
+
 [![Version](https://img.shields.io/badge/version-v0.1.0-22d3ee)](https://github.com/gamai-io/gama-lumi-bench/releases)
 
 

@@ -62,3 +62,7 @@ Measured (1k, same model/seed, CONC=128):
 - Do not publish internal endpoints, hosts, customer data, or keys.
 
 **Zenodo v1.2.2:** DOI `10.5281/zenodo.23933835` (concept `10.5281/zenodo.23920505`)
+## Tests
+```bash
+make test
+```
